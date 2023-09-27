@@ -1,0 +1,152 @@
+.burgerNav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    font-weight: bold;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.logoPhoto {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    align-self: center;
+    margin-top: -3px;
+}
+
+.linksList {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 14px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    width: 100%;
+    padding: 5px;
+    background-color: #0a5757;
+    transform: translateY(-100%);
+    transition: 0.2s;
+
+    margin: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+
+.show {
+    display: flex;
+    transform: translateY(0);
+
+}
+
+.burgerBtn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    z-index: 9999;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.burgerBtn img {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+
+.linksList a {
+    color: #fff;
+    transition: 0.2s all ease;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.linksList a:hover {
+    text-shadow: rgb(10, 77, 87) -3px 0, rgb(90, 194, 78) 3px 0;
+    transition: 0.2s all ease;
+}
+
+.linksList .active {
+    color: #5ac24e;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+}
+
+.ekl {
+    display: inline-block;
+    max-width: 230px;
+}
+
+
+.textTyping {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 5s steps(50, end) infinite;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .linksList {
+        gap: 18px;
+        font-size: 14px;
+        padding: 12px 0;
+    }
+
+    .burgerNav {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .linksList a:hover {
+        text-shadow: unset;
+    }
+
+    .logo {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .burgerNav {
+        display: none;
+    }
+}

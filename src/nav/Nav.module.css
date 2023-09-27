@@ -1,0 +1,102 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    font-weight: bold;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.logoPhoto {
+    width: 24px;
+    height: 24px;
+    margin-right: 2px;
+    align-self: center;
+    margin-top: -3px;
+}
+
+
+.linksList {
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    gap: 14px;
+    width: fit-content;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.linksList a {
+    color: #fff;
+    transition: 0.2s all ease;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.linksList a:hover {
+    text-shadow: rgb(10, 77, 87) -3px 0, rgb(90, 194, 78) 3px 0;
+    transition: 0.2s all ease;
+
+}
+
+.linksList a:active {
+    color: #5ac24e;
+}
+
+.container {
+    width: 80%;
+}
+
+.ekl {
+    display: inline-block;
+    max-width: 230px;
+}
+
+.linksList .active{
+    color: #5ac24e;
+    cursor: pointer;
+}
+.linksList .active:hover{
+    text-shadow: initial;
+}
+.textTyping {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 5s steps(50, end) infinite;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .linksList {
+        gap: 5px;
+        font-size: 14px;
+    }
+    .nav {
+        justify-content: center;
+        display: none;
+
+    }
+}

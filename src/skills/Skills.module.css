@@ -1,0 +1,33 @@
+.skillsBlock {
+    background-color: #343a40;
+    position: relative;
+}
+
+.skillsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title {
+    background-color: #eeeef5;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.pText{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: calc(16px + 10 * (100vw / 1440));
+    filter: drop-shadow(10px 8px 6px #5ac24e);
+}
