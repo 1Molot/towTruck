@@ -12,7 +12,7 @@ export const Remote = () => {
                 <Title text={'Позвонить нам'}/>
                 <ul className={style.remoBtn}>
                     <li>
-                        <a href="tel:80256444333" type={"phone"} target="_blank"><img src={phone}/></a>
+                        <a href="tel:+375256444333" rel="noopener noreferrer" target="_blank"><img src={phone} alt="Phone"/></a>
                     </li>
                 </ul>
             </div>
