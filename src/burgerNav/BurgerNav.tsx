@@ -22,7 +22,6 @@ export const BurgerNav = () => {
                 <p className={style.textTyping}>
                     Эвакуатор круглосуточно 24/7</p>
             </div>
-            {/*<Fade direction={"top-left"}>*/}
             <div onClick={onBurgerBtnClick} className={style.burgerBtn}>{menuIsOpen ? <img src={CloseIcon}/> :
                 <img src={burgerMenu}/>}</div>
             <ul className={menuIsOpen ? `${style.linksList} ${style.show}` : style.linksList}>
@@ -43,7 +42,6 @@ export const BurgerNav = () => {
                           duration={500}>Контакты</Link>
                 </li>
             </ul>
-            {/*</Fade>*/}
         </div>
     )
 }

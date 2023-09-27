@@ -10,11 +10,9 @@ export const Remote = () => {
         <section id="contacts" className={style.remoteBlock}>
             <div className={`${styleContainer.container} ${style.remoteContainer}`}>
                 <Title text={'Позвонить нам'}/>
-                <ul className={style.remoBtn}>
-                    <li>
+                <span className={style.remoBtn}>
                         <a href="tel:+375256444333" rel="noopener noreferrer" target="_blank"><img src={phone} alt="Phone"/></a>
-                    </li>
-                </ul>
+                </span>
             </div>
         </section>
 )
