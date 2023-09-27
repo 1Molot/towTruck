@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/towTruck/static/css/main.aaaa0589.css",
+    "main.js": "/towTruck/static/js/main.3bfa566e.js",
+    "static/js/787.e21c62c2.chunk.js": "/towTruck/static/js/787.e21c62c2.chunk.js",
+    "static/media/Evo3.jpg": "/towTruck/static/media/Evo3.86fdeae309a1afae3915.jpg",
+    "static/media/main.jpg": "/towTruck/static/media/main.86fdeae309a1afae3915.jpg",
+    "static/media/Evo2.jpg": "/towTruck/static/media/Evo2.d3e72af51bf63fc09118.jpg",
+    "static/media/Evo1.jpg": "/towTruck/static/media/Evo1.22a2f9469b182779b10e.jpg",
+    "static/media/autoHelp.png": "/towTruck/static/media/autoHelp.06a702d9564535b3b7cf.png",
+    "static/media/Instagram.svg": "/towTruck/static/media/Instagram.0b8597d27bbba4ff2738d3e76718b988.svg",
+    "static/media/viber.svg": "/towTruck/static/media/viber.4c08a41a6f073a6debdff2c135135b38.svg",
+    "static/media/whatsapp.svg": "/towTruck/static/media/whatsapp.468d4a9b1ddbfc30eeba7f4bc7d769ae.svg",
+    "static/media/Telegram.svg": "/towTruck/static/media/Telegram.bbd5e771ca7d9e93cd4ee3795ac08a6f.svg",
+    "static/media/phone.svg": "/towTruck/static/media/phone.be7754afbbf1d06759648b11d4d23c33.svg",
+    "index.html": "/towTruck/index.html",
+    "static/media/burgerMenu.svg": "/towTruck/static/media/burgerMenu.fc12fbd678bea2ce4ec9524cbe12a170.svg",
+    "static/media/CloseIcon.svg": "/towTruck/static/media/CloseIcon.721b545293c6e08c0d706acd6290c3a6.svg",
+    "main.aaaa0589.css.map": "/towTruck/static/css/main.aaaa0589.css.map",
+    "main.3bfa566e.js.map": "/towTruck/static/js/main.3bfa566e.js.map",
+    "787.e21c62c2.chunk.js.map": "/towTruck/static/js/787.e21c62c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaaa0589.css",
+    "static/js/main.3bfa566e.js"
+  ]
+}
