@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/towTruck/static/css/main.33c8af51.css",
+    "main.css": "/towTruck/static/css/main.576e088f.css",
     "main.js": "/towTruck/static/js/main.cf9e48c6.js",
     "static/js/787.e21c62c2.chunk.js": "/towTruck/static/js/787.e21c62c2.chunk.js",
     "static/media/Evo3.jpg": "/towTruck/static/media/Evo3.86fdeae309a1afae3915.jpg",
@@ -17,12 +17,12 @@
     "index.html": "/towTruck/index.html",
     "static/media/CloseIcon.svg": "/towTruck/static/media/CloseIcon.721b545293c6e08c0d706acd6290c3a6.svg",
     "static/media/burgerMenu.svg": "/towTruck/static/media/burgerMenu.9e84a96038a6afbb4ef555a397ef7fa3.svg",
-    "main.33c8af51.css.map": "/towTruck/static/css/main.33c8af51.css.map",
+    "main.576e088f.css.map": "/towTruck/static/css/main.576e088f.css.map",
     "main.cf9e48c6.js.map": "/towTruck/static/js/main.cf9e48c6.js.map",
     "787.e21c62c2.chunk.js.map": "/towTruck/static/js/787.e21c62c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33c8af51.css",
+    "static/css/main.576e088f.css",
     "static/js/main.cf9e48c6.js"
   ]
 }
