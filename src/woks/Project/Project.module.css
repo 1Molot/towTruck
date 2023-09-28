@@ -53,10 +53,6 @@
     object-fit: cover;
 }
 
-/*.imageWrapper img {*/
-/*    object-fit: contain;*/
-/*}*/
-
 .imageWrapper:hover img {
     transform: scale(1.1);
 }
@@ -103,6 +99,9 @@
     .photo {
         width: 100%;
         height: 300px;
+    }
+    .background {
+        height: 99%;
     }
 
 }
