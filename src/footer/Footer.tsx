@@ -13,10 +13,10 @@ export const Footer = () => {
 
     const iconFooter = [{
         img: `${viber}`,
-        link: 'viber://chat?number=%2B375256444333',
+        link: 'viber://chat?number=%2B375296924577',
         alt: 'viber'
     }, {
-        link: 'https://wa.me/80256444333',
+        link: 'https://wa.me/80296924577',
         img: `${whatsapp}`,
         alt: 'whatsapp'
     }, {
