@@ -13,15 +13,13 @@
 .remoBtn {
     width: 40px;
     align-items: center;
-    color: #fff;
     cursor: pointer;
     padding: 8px 10px;
     margin-top: 30px;
-    object-fit: cover;
-    border: none;
-    list-style: none;
+    /*object-fit: cover;*/
+    /*border: none;*/
+
     position: relative;
-    text-align: center;
     border-radius: 50%;
     background: #3350c2;
 }
@@ -84,3 +82,10 @@
         opacity: 0;
     }
 }
+a {
+    position: relative;
+    z-index: 10;
+}
+/*<span className={style.remoBtn}>*/
+/*<a href="https://wa.me/+375296924577" rel="nofollow" target="_blank"><img src={phone} alt="Phone"/></a>*/
+/*</span>*/

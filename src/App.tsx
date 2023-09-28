@@ -7,6 +7,7 @@ import {Projects} from "./woks/Projects";
 import {Remote} from "./remote/Remote";
 import {Footer} from "./footer/Footer";
 import "react-toastify/dist/ReactToastify.css";
+import phone from "./assets/img/phone.svg";
 
 
 function App() {

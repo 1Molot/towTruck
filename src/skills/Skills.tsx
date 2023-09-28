@@ -6,6 +6,7 @@ import {Reveal} from "../common/components/Reveal/Reveal";
 
 export const Skills = () => {
 
+    //  useMediaQuery()
     return (
         <section id="skills" className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>

@@ -1,4 +1,5 @@
 .work {
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,6 +46,10 @@
     transition: transform .3s ease-in-out;
     overflow: hidden;
     border-radius: 10px;
+}
+
+.imageWrapper img {
+    object-fit: contain;
 }
 
 .imageWrapper:hover img {
