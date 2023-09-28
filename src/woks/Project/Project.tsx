@@ -15,7 +15,6 @@ export const Project = ({title, img, alt,description}: WorkPropsType) => {
         <Reveal>
             <div className={style.work}>
                 <div className={style.imageWrapper}>
-                    {/*//width*/}
                     <img className={style.photo} src={img} alt={alt}/>
                     <div className={style.background}/>
                 </div>

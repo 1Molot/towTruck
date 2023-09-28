@@ -10,6 +10,7 @@
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 1px;
+    gap:5px;
 }
 
 .logoPhoto {
@@ -73,17 +74,19 @@
     cursor: pointer;
     width: 30px;
     height: 30px;
+    color: #fff;
 }
 
 
 .linksList a {
-    color: #fff;
+    color: #ffffff;
     transition: 0.2s all ease;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 3px;
     font-weight: bold;
     cursor: pointer;
+    text-decoration:none;
 }
 
 .linksList a:hover {
@@ -105,7 +108,6 @@
     max-width: 230px;
 }
 
-
 .textTyping {
     padding: 0;
     margin: 0;
@@ -115,20 +117,14 @@
     font-family: 'Josefin Sans', sans-serif;
     white-space: nowrap;
     overflow: hidden;
-    animation: type 5s steps(50, end) infinite;
-}
-
-@keyframes type {
-    from {
-        width: 0;
-    }
 }
 
 @media screen and (max-width: 768px) {
     .linksList {
-        gap: 18px;
+        gap: 14px;
         font-size: 14px;
         padding: 12px 0;
+        color: #ffffff;
     }
 
     .burgerNav {

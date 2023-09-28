@@ -6,6 +6,7 @@ import viber from "../assets/img/viber.svg";
 import whatsapp from "../assets/img/whatsapp.svg";
 import Telegram from "../assets/img/Telegram.svg";
 import Instagram from "../assets/img/Instagram.svg";
+import vk from "../assets/img/vk.svg";
 import {Reveal} from "../common/components/Reveal/Reveal";
 
 
@@ -27,6 +28,10 @@ export const Footer = () => {
         link: 'https://www.instagram.com/evakuatorzhlobin/',
         img: `${Instagram}`,
         alt: 'Instagram'
+    },{
+        link: 'https://vk.com/evakuatorzhlobin375256444333',
+        img: `${vk}`,
+        alt: 'vk'
     }]
 
     return (
@@ -40,7 +45,6 @@ export const Footer = () => {
                             return (
                                 <li key={index}>
                                     <a target={'_blank'} href={el.link}>
-                                        {/*{el.Title}*/}
                                         <img style={{width: 80, height: 50}} src={el.img} alt={el.alt}/>
                                     </a>
                                 </li>

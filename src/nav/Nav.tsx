@@ -5,13 +5,14 @@ import towedСar from "../assets/img/towedСar.png";
 import {Link} from "react-scroll";
 import {Reveal} from "../common/components/Reveal/Reveal";
 
+
 export const Nav = () => {
 
     return (
         <div className={`${style.nav} ${styleContainer.container}`}>
             <div className={style.logo}>
                 <img className={style.logoPhoto} src={towedСar} alt={'logo'}/>
-                <p className={style.textTyping}>Эвакуатор круглосуточно 24/7</p>
+                <p className={style.textTyping}>+375256444333</p>
             </div>
             <Reveal>
             <ul className={style.linksList}>

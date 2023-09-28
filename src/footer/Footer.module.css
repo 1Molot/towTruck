@@ -13,12 +13,13 @@
 }
 
 .footersCentre {
+    margin-top: 30px;
     text-align: center;
     min-height: 65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     padding: 2px 7px 0px 6px;
 }
 
@@ -45,6 +46,6 @@ a {
 
 @media screen and (max-width: 768px) {
     .footersCentre li {
-        width: 62px;
+        width: 58px;
     }
 }

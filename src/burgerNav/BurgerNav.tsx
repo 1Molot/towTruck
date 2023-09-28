@@ -20,7 +20,7 @@ export const BurgerNav = () => {
             <div className={style.logo}>
                 <img className={style.logoPhoto} src={towedСar} alt={'logo'}/>
                 <p className={style.textTyping}>
-                    Эвакуатор круглосуточно 24/7</p>
+                    +375256444333</p>
             </div>
             <div onClick={onBurgerBtnClick} className={style.burgerBtn}>{menuIsOpen ? <img src={CloseIcon}/> :
                 <img src={burgerMenu}/>}</div>

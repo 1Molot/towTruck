@@ -11,6 +11,7 @@
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 1px;
+    gap:5px;
 }
 
 .logoPhoto {
@@ -33,16 +34,17 @@
     letter-spacing: 1px;
     line-height: 1.2;
     text-transform: uppercase;
+    color:#ffffff;
 }
 
 .linksList a {
-    color: #fff;
     transition: 0.2s all ease;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 3px;
     font-weight: bold;
     cursor: pointer;
+    text-decoration:none;
 }
 
 .linksList a:hover {
@@ -80,14 +82,8 @@
     font-family: 'Josefin Sans', sans-serif;
     white-space: nowrap;
     overflow: hidden;
-    animation: type 5s steps(50, end) infinite;
 }
 
-@keyframes type {
-    from {
-        width: 0;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .linksList {

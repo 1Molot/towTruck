@@ -1,11 +1,13 @@
 .skillsBlock {
     background-color: #343a40;
     position: relative;
+    padding-top: 30px;
 }
 
 .skillsContainer {
     justify-content: flex-start;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 
 .title {
@@ -28,6 +30,13 @@
     font-weight: 400;
     color: #fff;
     letter-spacing: 1px;
-    font-size: calc(16px + 10 * (100vw / 1440));
+    font-size: calc(12px + 10 * (100vw / 1440));
     filter: drop-shadow(10px 8px 6px #5ac24e);
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .skillsBlock{
+        padding-top: 0;
+    }
 }
