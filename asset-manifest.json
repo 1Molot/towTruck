@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/towTruck/static/css/main.a537d312.css",
-    "main.js": "/towTruck/static/js/main.159e09b9.js",
+    "main.css": "/towTruck/static/css/main.b0d76ff5.css",
+    "main.js": "/towTruck/static/js/main.e0f10bb5.js",
     "static/js/787.e21c62c2.chunk.js": "/towTruck/static/js/787.e21c62c2.chunk.js",
     "static/media/Evo3.jpg": "/towTruck/static/media/Evo3.86fdeae309a1afae3915.jpg",
     "static/media/main.jpg": "/towTruck/static/media/main.86fdeae309a1afae3915.jpg",
@@ -13,15 +13,16 @@
     "static/media/whatsapp.svg": "/towTruck/static/media/whatsapp.468d4a9b1ddbfc30eeba7f4bc7d769ae.svg",
     "static/media/Telegram.svg": "/towTruck/static/media/Telegram.bbd5e771ca7d9e93cd4ee3795ac08a6f.svg",
     "static/media/phone.svg": "/towTruck/static/media/phone.be7754afbbf1d06759648b11d4d23c33.svg",
+    "static/media/vk.svg": "/towTruck/static/media/vk.4d7dd60e56dd66aa7404e75eb57f29a7.svg",
     "index.html": "/towTruck/index.html",
-    "static/media/burgerMenu.svg": "/towTruck/static/media/burgerMenu.fc12fbd678bea2ce4ec9524cbe12a170.svg",
     "static/media/CloseIcon.svg": "/towTruck/static/media/CloseIcon.721b545293c6e08c0d706acd6290c3a6.svg",
-    "main.a537d312.css.map": "/towTruck/static/css/main.a537d312.css.map",
-    "main.159e09b9.js.map": "/towTruck/static/js/main.159e09b9.js.map",
+    "static/media/burgerMenu.svg": "/towTruck/static/media/burgerMenu.9e84a96038a6afbb4ef555a397ef7fa3.svg",
+    "main.b0d76ff5.css.map": "/towTruck/static/css/main.b0d76ff5.css.map",
+    "main.e0f10bb5.js.map": "/towTruck/static/js/main.e0f10bb5.js.map",
     "787.e21c62c2.chunk.js.map": "/towTruck/static/js/787.e21c62c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a537d312.css",
-    "static/js/main.159e09b9.js"
+    "static/css/main.b0d76ff5.css",
+    "static/js/main.e0f10bb5.js"
   ]
 }
