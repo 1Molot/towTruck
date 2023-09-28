@@ -16,7 +16,7 @@ export const Footer = () => {
         link: 'viber://chat?number=%2B375296924577',
         alt: 'viber'
     }, {
-        link: 'https://wa.me/80296924577',
+        link: 'https://wa.me/+375296924577',
         img: `${whatsapp}`,
         alt: 'whatsapp'
     }, {
