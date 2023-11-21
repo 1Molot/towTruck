@@ -17,26 +17,15 @@
     text-align: left;
     height: 400px;
     max-width: 460px;
-    /*padding: 10px 16px 10px 30px;*/
-    /*margin-left: 10px;*/
-    /*background-color: rgba(7, 24, 31, 0.24);*/
 }
 
-.pText{
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.8;
-    font-weight: 400;
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: calc(12px + 10 * (100vw / 1440));
-    filter: drop-shadow(10px 8px 6px #5ac24e);
-}
 
 @media screen and (max-width: 1056px) {
-    .mainBlock{
+    .mainBlock {
         height: 100%;
     }
-    .text{
+
+    .text {
         margin-top: 30px;
         margin-left: 10px;
         height: 100%;
@@ -44,15 +33,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .mainBlock{
+    .mainBlock {
         height: 100%;
     }
+
     .text {
         margin: 0;
         max-width: 300px;
         height: 172px;
-    }
-    .pText{
-        font-size: 12px;
     }
 }

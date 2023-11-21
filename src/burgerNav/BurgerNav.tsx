@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import styleContainer from "../common/styles/Container.module.css";
-import style from './BurgerNav.module.css';
+import s from './BurgerNav.module.css';
 import towedСar from "../assets/img/towedСar.png";
 import {Link} from "react-scroll";
 import burgerMenu from ".././assets/img/burgerMenu.svg";
@@ -16,29 +16,29 @@ export const BurgerNav = () => {
     }
 
     return (
-        <div className={`${style.burgerNav} ${styleContainer.container}`}>
-            <div className={style.logo}>
-                <img className={style.logoPhoto} src={towedСar} alt={'logo'}/>
-                <p className={style.textTyping}>
+        <div className={`${s.burgerNav} ${styleContainer.container}`}>
+            <div className={s.logo}>
+                <img className={s.logoPhoto} src={towedСar} alt={'logo'}/>
+                <p className={s.textTyping}>
                     +375256444333</p>
             </div>
-            <div onClick={onBurgerBtnClick} className={style.burgerBtn}>{menuIsOpen ? <img src={CloseIcon}/> :
+            <div onClick={onBurgerBtnClick} className={s.burgerBtn}>{menuIsOpen ? <img src={CloseIcon}/> :
                 <img src={burgerMenu}/>}</div>
-            <ul className={menuIsOpen ? `${style.linksList} ${style.show}` : style.linksList}>
+            <ul className={menuIsOpen ? `${s.linksList} ${s.show}` : s.linksList}>
                 <li>
-                    <Link activeClass={style.active} to="main" spy={true} smooth={true} offset={2}
+                    <Link activeClass={s.active} to="main" spy={true} smooth={true} offset={2}
                           duration={500}>Главная</Link>
                 </li>
                 <li>
-                    <Link activeClass={style.active} to="skills" spy={true} smooth={true} offset={2}
+                    <Link activeClass={s.active} to="skills" spy={true} smooth={true} offset={2}
                           duration={500}>Наши услуги</Link>
                 </li>
                 <li>
-                    <Link activeClass={style.active} to="projects" spy={true} smooth={true} offset={2}
+                    <Link activeClass={s.active} to="projects" spy={true} smooth={true} offset={2}
                           duration={500}>Цены</Link>
                 </li>
                 <li>
-                    <Link activeClass={style.active} to="contacts" spy={true} smooth={true} offset={2}
+                    <Link activeClass={s.active} to="contacts" spy={true} smooth={true} offset={2}
                           duration={500}>Контакты</Link>
                 </li>
             </ul>

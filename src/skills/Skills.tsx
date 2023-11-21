@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Skills.module.css';
+import s from './Skills.module.css';
 import styleContainer from './../common/styles/Container.module.css'
 import {Title} from "../common/components/Title/Title";
 import {Reveal} from "../common/components/Reveal/Reveal";
@@ -10,12 +10,12 @@ export const Skills = () => {
     const isMobile = useMediaQuery({maxWidth: 767});
 
     return (
-        <section id="skills" className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+        <section id="skills" className={s.skillsBlock}>
+            <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <Title text={'Наши Услуги'}/>
                 <Reveal>
                     {isMobile ? (
-                        <h3 className={style.pText}>
+                        <h3 className={s.pText}>
                             Эвакуатор круглосуточно 24/7: Готовы помочь в любое время суток, доставим ваш автомобиль в
                             нужное место.
                             Грузоперевозки до 6 м и 2,5 тонн: Надежная и безопасная доставка грузов различных размеров и
@@ -26,7 +26,7 @@ export const Skills = () => {
                             Автомобильная помощь: Подкачка шин и прикуривание автомобиля на дороге.
                         </h3>
                     ) : (
-                        <h3 className={style.pText}>
+                        <h3 className={s.pText}>
                             Эвакуатор круглосуточно 24/7: Мы готовы оказать помощь в любое время
                             суток, гарантируя оперативную эвакуацию вашего автомобиля. Независимо от того, где вы
                             находитесь

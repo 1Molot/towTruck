@@ -33,8 +33,6 @@
 
 .photo {
     border-radius: 10px;
-    /*width: 300px;*/
-    /*height: 350px;*/
     width: 298px;
     height: 298px;
     background-color: #f7f7f7;
@@ -49,7 +47,6 @@
     overflow: hidden;
     border-radius: 10px;
     width: 100%;
-    /*background-size: cover;*/
     object-fit: cover;
 }
 

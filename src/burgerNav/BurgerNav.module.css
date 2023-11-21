@@ -10,7 +10,7 @@
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 1px;
-    gap:5px;
+    gap: 5px;
 }
 
 .logoPhoto {
@@ -86,7 +86,7 @@
     letter-spacing: 3px;
     font-weight: bold;
     cursor: pointer;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .linksList a:hover {

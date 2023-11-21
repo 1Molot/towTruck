@@ -1,4 +1,4 @@
-import style from './Footer.module.css';
+import s from './Footer.module.css';
 import styleContainer from "../common/styles/Container.module.css";
 import React from "react";
 import {Title} from "../common/components/Title/Title";
@@ -35,11 +35,11 @@ export const Footer = () => {
     }]
 
     return (
-        <footer className={style.footerBlock}>
+        <footer className={s.footerBlock}>
             <Reveal>
-            <div className={`${styleContainer.container} ${style.footerContainer}`}>
+            <div className={`${styleContainer.container} ${s.footerContainer}`}>
                 <Title text={'Мы в социальных сетях'}/>
-                <ul className={style.footersCentre}>
+                <ul className={s.footersCentre}>
                     {
                         iconFooter.map((el, index) => {
                             return (
@@ -52,7 +52,7 @@ export const Footer = () => {
                         })
                     }
                 </ul>
-                <p className={style.rights}>©2023 All rights reserved</p>
+                <p className={s.rights}>©2023 All rights reserved</p>
             </div>
                 </Reveal>
         </footer>

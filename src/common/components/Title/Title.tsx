@@ -1,28 +1,15 @@
 import React from 'react';
-import style from './Title.module.css';
+import s from './Title.module.css';
 
-export type titlePropsType = {
+type titleProps = {
     text: string
 }
 
-export const Title = (props: titlePropsType) => {
-
-    const Titles = [{
-        text: 'My Projects'
-    }, {
-        text: 'Skills'
-    }, {
-        text: 'Considering remote Project options'
-    }, {
-        text: 'Contacts'
-    }, {
-        text: 'Sinkevich Maksim'
-    },
-    ]
+export const Title = ({text}:titleProps) => {
 
     return (
-        <div className={style.title}>
-            <h2>{props.text}</h2>
+        <div className={s.title}>
+            <h2>{text}</h2>
         </div>
     )
 }

@@ -1,12 +1,12 @@
 import React, {ReactNode, useEffect, useRef} from 'react';
 import {motion, useAnimation, useInView} from "framer-motion";
 
-type RevealPropsType = {
+type RevealProps = {
     children: ReactNode
     width?: 'fit content' | '100%'
 }
 
-export const Reveal = ({children, width = 'fit content'}: RevealPropsType) => {
+export const Reveal = ({children, width = 'fit content'}: RevealProps) => {
     const ref = useRef(null)
     const isInView = useInView(ref, {once: true})
     const mainControls = useAnimation()
@@ -24,7 +24,6 @@ export const Reveal = ({children, width = 'fit content'}: RevealPropsType) => {
             <motion.div
                 variants={{
                     hidden: { opacity: 0, y: -100 },
-                    // hidden: { opacity: 0, y: 75 },  //75 s nizy
                     visible: { opacity: 1, y: 0 },
                 }}
                 initial={'hidden'}
