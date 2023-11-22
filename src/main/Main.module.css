@@ -1,35 +1,22 @@
 .mainBlock {
     height: 100vh;
+    width: 100%;
     background-color: #343a40;
-    padding: 130px 0 70px 0;
-    background-image: url("../../src/assets/img/main.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     margin: 0 auto;
-    text-align: center;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
-
-.text {
-    text-align: left;
-    height: 400px;
-    max-width: 460px;
+.mainFoto {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-@media screen and (max-width: 1056px) {
-    /*.mainBlock {*/
-    /*    height: 100%;*/
-    /*}*/
-
-    .text {
-        margin-top: 30px;
-        margin-left: 10px;
-        height: 100%;
-    }
+.mainFoto > img{
+    width:100%;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
@@ -37,9 +24,4 @@
         height: 100%;
     }
 
-    .text {
-        margin: 0;
-        max-width: 300px;
-        height: 172px;
-    }
 }

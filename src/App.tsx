@@ -11,7 +11,7 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <main>
+            <main className={'main'}>
                 <MainInform/>
                 <Skills/>
                 <Projects/>

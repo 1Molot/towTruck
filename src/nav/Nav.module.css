@@ -11,7 +11,7 @@
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 1px;
-    gap:5px;
+    gap: 5px;
 }
 
 .logoPhoto {
@@ -21,7 +21,6 @@
     align-self: center;
     margin-top: -3px;
 }
-
 
 .linksList {
     list-style: none;
@@ -34,7 +33,7 @@
     letter-spacing: 1px;
     line-height: 1.2;
     text-transform: uppercase;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .linksList a {
@@ -44,13 +43,12 @@
     letter-spacing: 3px;
     font-weight: bold;
     cursor: pointer;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .linksList a:hover {
     text-shadow: rgb(10, 77, 87) -3px 0, rgb(90, 194, 78) 3px 0;
     transition: 0.2s all ease;
-
 }
 
 .linksList a:active {
@@ -66,13 +64,15 @@
     max-width: 230px;
 }
 
-.linksList .active{
+.linksList .active {
     color: #5ac24e;
     cursor: pointer;
 }
-.linksList .active:hover{
+
+.linksList .active:hover {
     text-shadow: initial;
 }
+
 .textTyping {
     padding: 0;
     margin: 0;
@@ -85,14 +85,14 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 779.9px) {
     .linksList {
         gap: 5px;
         font-size: 14px;
     }
+
     .nav {
         justify-content: center;
         display: none;
-
     }
 }

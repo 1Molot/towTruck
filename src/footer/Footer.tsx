@@ -9,7 +9,6 @@ import Instagram from "../assets/img/Instagram.svg";
 import vk from "../assets/img/vk.svg";
 import {Reveal} from "../common/components/Reveal/Reveal";
 
-
 export const Footer = () => {
 
     const iconFooter = [{
@@ -52,7 +51,7 @@ export const Footer = () => {
                         })
                     }
                 </ul>
-                <p className={s.rights}>©2023 All rights reserved</p>
+                <p className={s.rights}>ИП Кузнецов П.С. <br/>УНП 491466505</p>
             </div>
                 </Reveal>
         </footer>
