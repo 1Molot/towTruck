@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Title.module.css';
 
 type titleProps = {
-    text: string
+    text?: string
 }
 
 export const Title = ({text}:titleProps) => {

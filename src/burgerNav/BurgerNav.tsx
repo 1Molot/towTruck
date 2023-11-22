@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styleContainer from "../common/styles/Container.module.css";
 import s from './BurgerNav.module.css';
-import towedСar from "../assets/img/towedСar.png";
+import towedCar from "../assets/img/towedCar.png";
 import {Link} from "react-scroll";
 import burgerMenu from ".././assets/img/burgerMenu.svg";
 import CloseIcon from ".././assets/img/CloseIcon.svg";
@@ -18,7 +18,7 @@ export const BurgerNav = () => {
     return (
         <div className={`${s.burgerNav} ${styleContainer.container}`}>
             <div className={s.logo}>
-                <img className={s.logoPhoto} src={towedСar} alt={'logo'}/>
+                <img className={s.logoPhoto} src={towedCar} alt={'logo'}/>
                 <p className={s.textTyping}>
                     +375256444333</p>
             </div>

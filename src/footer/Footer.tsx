@@ -27,7 +27,7 @@ export const Footer = () => {
         link: 'https://www.instagram.com/evakuatorzhlobin/',
         img: `${Instagram}`,
         alt: 'Instagram'
-    },{
+    }, {
         link: 'https://vk.com/evakuatorzhlobin375256444333',
         img: `${vk}`,
         alt: 'vk'
@@ -36,24 +36,25 @@ export const Footer = () => {
     return (
         <footer className={s.footerBlock}>
             <Reveal>
-            <div className={`${styleContainer.container} ${s.footerContainer}`}>
-                <Title text={'Мы в социальных сетях'}/>
-                <ul className={s.footersCentre}>
-                    {
-                        iconFooter.map((el, index) => {
-                            return (
-                                <li key={index}>
-                                    <a target={'_blank'} href={el.link}>
-                                        <img style={{width: 80, height: 50}} src={el.img} alt={el.alt}/>
-                                    </a>
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
-                <p className={s.rights}>ИП Кузнецов П.С. <br/>УНП 491466505</p>
-            </div>
-                </Reveal>
+                <div className={`${styleContainer.container} ${s.footerContainer}`}>
+                    <Title text={'Мы в социальных сетях'}/>
+                    <ul className={s.footersCentre}>
+                        {
+                            iconFooter.map((el, index) => {
+                                return (
+                                    <li key={index}>
+                                        <a target={'_blank'} href={el.link}>
+                                            <img style={{width: 80, height: 50}} src={el.img} alt={el.alt}/>
+                                        </a>
+                                    </li>
+                                )
+                            })
+                        }
+                    </ul>
+                    <Title/>
+                    <p className={s.rights}>ИП Кузнецов П.С. <br/>УНП 491466505</p>
+                </div>
+            </Reveal>
         </footer>
     )
 }
