@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/towTruck/static/css/main.dcc9fbab.css",
-    "main.js": "/towTruck/static/js/main.5a59605c.js",
+    "main.css": "/towTruck/static/css/main.72a9fc1b.css",
+    "main.js": "/towTruck/static/js/main.3533a243.js",
     "static/js/787.e21c62c2.chunk.js": "/towTruck/static/js/787.e21c62c2.chunk.js",
     "static/media/Evo3.jpg": "/towTruck/static/media/Evo3.86fdeae309a1afae3915.jpg",
     "static/media/main.jpg": "/towTruck/static/media/main.86fdeae309a1afae3915.jpg",
@@ -17,12 +17,12 @@
     "index.html": "/towTruck/index.html",
     "static/media/CloseIcon.svg": "/towTruck/static/media/CloseIcon.721b545293c6e08c0d706acd6290c3a6.svg",
     "static/media/burgerMenu.svg": "/towTruck/static/media/burgerMenu.9e84a96038a6afbb4ef555a397ef7fa3.svg",
-    "main.dcc9fbab.css.map": "/towTruck/static/css/main.dcc9fbab.css.map",
-    "main.5a59605c.js.map": "/towTruck/static/js/main.5a59605c.js.map",
+    "main.72a9fc1b.css.map": "/towTruck/static/css/main.72a9fc1b.css.map",
+    "main.3533a243.js.map": "/towTruck/static/js/main.3533a243.js.map",
     "787.e21c62c2.chunk.js.map": "/towTruck/static/js/787.e21c62c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcc9fbab.css",
-    "static/js/main.5a59605c.js"
+    "static/css/main.72a9fc1b.css",
+    "static/js/main.3533a243.js"
   ]
 }
