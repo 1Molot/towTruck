@@ -21,9 +21,9 @@
 
 
 @media screen and (max-width: 1056px) {
-    .mainBlock {
-        height: 100%;
-    }
+    /*.mainBlock {*/
+    /*    height: 100%;*/
+    /*}*/
 
     .text {
         margin-top: 30px;
